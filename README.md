@@ -1,4 +1,4 @@
-# cpnt-200-a2
+# cpnt-200-a3
 - Links
   - https://github.com/Nephy1/cpnt-200-a3
   - https://inspiring-pare-2f4425.netlify.app/ - fixed 
