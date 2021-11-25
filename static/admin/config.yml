@@ -29,12 +29,14 @@ collections:
       preview: true
     fields:
       - name: 'containerOne'
+        label: 'Container One'
         widget: 'list'
         fields:
           - name: 'title'
             label: 'Title'
             widget: 'string'
       - name: 'containerTwo'
+        label: 'Container Two'
         widget: 'list'
         fields:
           - name: 'date'
