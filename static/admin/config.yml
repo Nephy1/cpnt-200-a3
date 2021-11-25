@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'Code'
+    label: 'Coding Notes'
+    folder: 'content/code'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - name: 'containerOne'
+        widget: 'list'
+        fields:
+          - name: 'title'
+            label: 'Title'
+            widget: 'string'
+      - name: 'containerTwo'
+        widget: 'list'
+        fields:
+          - name: 'date'
+            label: 'Date Published'
+            widget: 'datetime'
+      - name: 'markdownEdit'
+        label: 'Markdown Editor'
+        widget: 'markdown'
+        sanitize_preview: 'true'
+      - name: 'textEditor'
+        label: 'Text Editor'
+        widget: 'text'
+      - name: 'codeEditor'
+        label: 'Code Editor'
+        widget: 'code'
+        default_language: 'javascript'
+  - name: 'notes'
+    label: 'Notes To Myself'
+    folder: 'content/notes'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', hint:' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
