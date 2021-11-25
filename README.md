@@ -1,6 +1,6 @@
 # cpnt-200-a2
 - Links
-  - https://github.com/Nephy1/cpnt-200-a2
+  - https://github.com/Nephy1/cpnt-200-a3
   - https://inspiring-pare-2f4425.netlify.app/ - fixed 
 
 ## Code Review 
@@ -17,4 +17,4 @@
   - https://www.youtube.com/watch?v=ltzlhAxJr74
 - Ash's Code
   - https://gist.github.com/lilyx13/003a7bca82c6acdb72cc4ccd81cc6fe0
-
+- Ashlyn Knox : Debugging
