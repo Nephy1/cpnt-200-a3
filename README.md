@@ -2,7 +2,9 @@
 - Links
   - https://github.com/Nephy1/cpnt-200-a3
   - https://inspiring-pare-2f4425.netlify.app/ - fixed 
-
+---
+## searching by slug in URL works on localhost but not after deploy (??)
+---
 ## Code Review 
 - Issues
   - Seemed pretty intimidating at first. There is definitely a learning curve but it's not too steep. I had followed Traversy Media's Nuxt JS Crash Course and it helped a ton. 
