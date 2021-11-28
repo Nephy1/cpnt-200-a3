@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NuxtLogo />
     <AppHeader />
     <article>
       <h2>{{ post.title }}</h2>
