@@ -1,8 +1,12 @@
 <template>
-  <article>
-    <h2>{{ post.title }}</h2>
-    <nuxt-content :document="post" />
-  </article>
+  <div>
+    <AppHeader />
+    <article>
+      <h2>{{ post.title }}</h2>
+      <nuxt-content :document="post" />
+    </article>
+    <AppFooter />
+  </div>
 </template>
 
 <script>
