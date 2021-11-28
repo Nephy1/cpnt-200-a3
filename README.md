@@ -13,7 +13,7 @@
 - Comments
   - I actually don't understand the collections until I see them fully built. Can't picture what I'm making or the different options I have available to me.
   - I feel like I'm on the right track but I'm lost
-  - I don't undestand the v-html/v-bind or v-for. I know this third assignment is terrible. I've been super busy with RL things and just need to hand this in.
+  - I don't undestand the v-html/v-bind or v-for. I know this fourth assignment is terrible. I've been super busy with RL things and just need to hand this in.
 
 ### Attributions
 - Traversy Media YouTube
